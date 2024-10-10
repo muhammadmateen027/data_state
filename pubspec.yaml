@@ -1,11 +1,11 @@
-name: data_state
+name: app_data_state
 description: "A new Flutter package to handle state inside apps"
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/muhammadmateen027/data_state
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:

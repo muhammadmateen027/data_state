@@ -22,7 +22,7 @@ application. It encapsulates the loading state and any associated exception.
 To use the `DataState` class, import it in your Dart file:
 
 ```dart
-import 'package:data_state/data_state.dart';
+import 'package:app_data_state/data_state.dart';
 ``` 
 
 ### Creating instances
@@ -83,7 +83,7 @@ To start using the `DataState` package, add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  data_state: ^0.0.1
+  app_data_state: ^0.0.2
 ```
 
 Then run `flutter pub get` to install the package.
