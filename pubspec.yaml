@@ -1,6 +1,6 @@
 name: app_data_state
 description: "A new Flutter package to handle state inside apps"
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/muhammadmateen027/data_state
 
 environment:
