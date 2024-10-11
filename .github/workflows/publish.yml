@@ -19,6 +19,11 @@ jobs:
       id-token: write # Required for authentication using OIDC
     runs-on: ubuntu-latest
     steps:
+      - name: Set Up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.19.5'
+          channel: 'stable'
       - uses: actions/checkout@v3
       - uses: dart-lang/setup-dart@v1
       - name: Install dependencies
