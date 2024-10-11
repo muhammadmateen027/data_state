@@ -33,3 +33,6 @@ jobs:
       - name: Publish
         run: flutter pub publish --force
 
+
+#  git tag VERSION => git tag 0.0.3
+#  git push origin VERSION => git push origin 0.0.3
